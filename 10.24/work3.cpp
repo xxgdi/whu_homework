@@ -8,7 +8,7 @@ bool judge(int x) {
         Half =Half * 10 + x % 10;
         x /= 10;
     }
-    return x ==dHalf || x == Half / 10;
+    return x ==Half || x == Half / 10;
 }
 
 int main() {
